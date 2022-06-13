@@ -21,6 +21,16 @@ public class App {
         Arrays.parallelSort(numbers);
         System.out.println("parallel sorting took " + (System.nanoTime() - start));
 
-    }
+        /*
+         *
+         * */
 
+        Name name = new Name();
+
+        name.print();
+        name.printDefault();
+
+        Print.printStatic();
+
+    }
 }
