@@ -24,8 +24,8 @@
 📚 [메서드 레퍼런스 🛫](https://velog.io/@daydream/Java-8-%EB%A9%94%EC%84%9C%EB%93%9C-%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4) <br/>
 📚 [인터페이스의 default 메서드와 static 메서드 🛫](https://velog.io/@daydream/Java-8-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%9D%98-default-%EB%A9%94%EC%84%9C%EB%93%9C%EC%99%80-static-%EB%A9%94%EC%84%9C%EB%93%9C#default-%EB%A9%94%EC%84%9C%EB%93%9C) <br/>
 📚 [Java 8 API의 default 메소드와 static 메소드 🛫](https://velog.io/@daydream/Java-8-Java-8-API%EC%9D%98-default-%EB%A9%94%EC%86%8C%EB%93%9C%EC%99%80-static-%EB%A9%94%EC%86%8C%EB%93%9C) <br/>
-📚 [Stream API🛫](https://velog.io/@daydream/Java-8-Stream-API) <br/>
-
+📚 [Stream API 🛫](https://velog.io/@daydream/Java-8-Stream-API) <br/>
+📚 [Optional API 🛫](https://velog.io/@daydream/Java-8-Optional-API) <br/>
 <br><br>
 
 ## 🔍 강의 목차
@@ -35,9 +35,9 @@
 ✅ 함수형 인터페이스와 람다 <br/>
 ✅ 인터페이스의 변화 <br/>
 ✅ Stream <br/>
-✅ Optional (지식을 쌓고 있습니다... 📚~)  <br/>
+✅ Optional <br/>
 ✅ Date, Time <br/>
-✅ CompletableFuture <br/>
+✅ CompletableFuture (지식을 쌓고 있습니다... 📚~) <br/>
 ✅ 애노테이션의 변화 <br/>
 ✅ 배열 병렬 정렬 <br/>
 ✅ Metaspace <br/>
