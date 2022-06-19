@@ -3,7 +3,6 @@ package me.whiteship.java8to11.optional;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.OptionalInt;
 
 public class App {
 
@@ -16,26 +15,6 @@ public class App {
         springClasses.add(new OnlineClass(4, "spring core", false));
         springClasses.add(new OnlineClass(5, "rest api development", false));
 
-        OnlineClass spring_boot = new OnlineClass(1, "optional boot", true);
-        Optional<Progress> progress = spring_boot.getProgress();
-        progress.ifPresent((p) -> System.out.println(p.getStudyDuration()));
-
-        /*
-            Map의 Key 타입에 Optional을 사용하는 것은 매우 좋지 않은 방법이다.
-            Map의 특징 중 하나가 Key 타입은 null일 수 없다는 점인데
-            Optional을 사용한다면 Key 타입은 null이 아니라는 Map의 특징을 깨트리는 행위이다.
-        */
-
-        /*
-            프리미티브 타입을 아래와 같이 일반 Optional로 사용하는 것은 권장하지 않는다.
-            내부적으로 프리미티브 타입이 박싱, 언박싱되는 불필요한 단계를 거치게 된다.(성능이 좋지 않다.)
-            따라서 프리미티브 타입용 Optional을 사용해서 불필요한 박싱, 언박싱을 방지해야 한다.(권장)
-        */
-        Optional.of(10); // 프리미티브 타입 Optional 생성 올바른 방법 X
-        OptionalInt.of(10); // 프리미티브 타입 Optional 생성 올바른 방법 O
-
-
-        /* =============================================================================================== */
         //Optional 활용
         Optional<OnlineClass> optional = springClasses.stream()
                 .filter(oc -> oc.getTitle().startsWith("spring"))
@@ -46,6 +25,7 @@ public class App {
         System.out.println(!present);
         System.out.println(empty);
         System.out.println("#######################");
+
         /*
             아래의 코드는 optional이 비어있는 경우 런타임 에러 발생
             OnlineClass onlineClass = optional.get();
@@ -53,9 +33,11 @@ public class App {
             위와 같은 런타임 에러를 방지하기 위하여
             optional이 제공하는 다양한 메소드를 이용해서 가능하다면 get으로 꺼내지말고 다른방식으로 처리하자
          */
+
         //1. Optional 값을 가지고 무언가를 해야하는 경우. ifPresent 사용.
         optional.ifPresent(oc -> System.out.println(oc.getTitle()));
         System.out.println("#######################");
+
         //2. Optional 값을 가져와서 나중에도 참조를 하는 등의 지속적인 작업을 해야하는 경우.
         //적합한 상황 예
         //상수로 이미 만들어진 인스턴스를 사용하는 경우(optional이 존재하든 말든 무조건 수행) : orElse
@@ -69,10 +51,10 @@ public class App {
 
         //값이 반드시 있어야 하는 경우
         Optional<OnlineClass> optional2 = springClasses.stream()
-                .filter(oc -> oc.getTitle().startsWith("jpa"))
+                .filter(oc -> oc.getTitle().startsWith("spring data jpa")) // jpa -> spring boot
                 .findFirst();
         OnlineClass onlineClass2 = optional2.orElseThrow(IllegalStateException::new);
-        System.out.println(onlineClass2.getTitle());
+        System.out.println(onlineClass2.getTitle() + ",,");
         System.out.println("#######################");
 
         //optional의 filter 값을 걸러내는 옵션. 값이 있다는 가정하에 동작. 값이 없다면 비어있는 Optional 객체를 반환한다.

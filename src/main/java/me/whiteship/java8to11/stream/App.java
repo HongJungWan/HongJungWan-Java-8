@@ -1,5 +1,7 @@
 package me.whiteship.java8to11.stream;
 
+import me.whiteship.java8to11.optional.OnlineClass;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

@@ -26,6 +26,8 @@
 📚 [Java 8 API의 default 메소드와 static 메소드 🛫](https://velog.io/@daydream/Java-8-Java-8-API%EC%9D%98-default-%EB%A9%94%EC%86%8C%EB%93%9C%EC%99%80-static-%EB%A9%94%EC%86%8C%EB%93%9C) <br/>
 📚 [Stream API 🛫](https://velog.io/@daydream/Java-8-Stream-API) <br/>
 📚 [Optional API 🛫](https://velog.io/@daydream/Java-8-Optional-API) <br/>
+📚 [Date와 Time API 🛫](https://velog.io/@daydream/Java-8-Date%EC%99%80-Time-API) <br/>
+
 <br><br>
 
 ## 🔍 강의 목차
