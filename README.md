@@ -29,6 +29,7 @@
 📚 [Date와 Time API 🛫](https://velog.io/@daydream/Java-8-Date%EC%99%80-Time-API) <br/>
 📚 [Java Concurrent 🛫](https://velog.io/@daydream/Java-8-Java-Concurrent) <br/>
 📚 [Executors 🛫](https://velog.io/@daydream/Java-8-Executors) <br/>
+📚 [Callable과 Future 🛫](https://velog.io/@daydream/Java-8-Callable%EA%B3%BC-Future) <br/>
 
 <br><br>
 
@@ -41,7 +42,7 @@
 ✅ Stream <br/>
 ✅ Optional <br/>
 ✅ Date, Time <br/>
-✅ CompletableFuture (지식을 쌓고 있습니다... 📚~) <br/>
+✅ CompletableFuture <br/>
 ✅ 애노테이션의 변화 <br/>
 ✅ 배열 병렬 정렬 <br/>
 ✅ Metaspace <br/>
