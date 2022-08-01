@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.optional;
+package me.whiteship.optional;
 
 import java.util.Optional;
 

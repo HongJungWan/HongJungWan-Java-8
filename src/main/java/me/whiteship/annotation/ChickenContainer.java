@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.annotation;
+package me.whiteship.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

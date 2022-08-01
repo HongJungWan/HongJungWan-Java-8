@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.before;
+package me.whiteship.before;
 
 import java.util.ArrayList;
 import java.util.List;

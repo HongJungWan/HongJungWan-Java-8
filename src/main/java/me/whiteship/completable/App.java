@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.completable;
+package me.whiteship.completable;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

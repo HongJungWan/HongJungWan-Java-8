@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.future;
+package me.whiteship.future;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;

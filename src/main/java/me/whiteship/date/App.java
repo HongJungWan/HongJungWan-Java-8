@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.date;
+package me.whiteship.date;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

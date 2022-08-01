@@ -45,7 +45,10 @@
 ### Java
 
 📚 [JAVA, JVM, JDK, JRE](https://velog.io/@daydream/Java-JAVA-JVM-JDK-JRE) <br/>
-
+📚 [JVM Structure](https://velog.io/@daydream/Java-JVM-Structure) <br/>
+📚 []() <br/>
+📚 []() <br/>
+📚 []() <br/>
 
 <br>
 

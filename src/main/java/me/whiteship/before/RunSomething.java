@@ -1,4 +1,4 @@
-package me.whiteship.java8to11.before;
+package me.whiteship.before;
 
 @FunctionalInterface // java standard lib에 들어있어서 별도의 import가 되지 않는다.
 public interface RunSomething {
